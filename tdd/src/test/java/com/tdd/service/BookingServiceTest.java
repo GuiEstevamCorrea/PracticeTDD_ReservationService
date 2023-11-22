@@ -1,4 +1,4 @@
-package com.tdd;
+package com.tdd.service;
 
 import com.tdd.model.BookingModel;
 import com.tdd.repositories.BookingRepository;

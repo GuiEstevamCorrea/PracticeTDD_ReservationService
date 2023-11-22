@@ -1,5 +1,6 @@
 package com.tdd.model;
 
+import jakarta.persistence.Entity;
 import lombok.*;
 
 import java.time.LocalDate;
@@ -9,6 +10,7 @@ import java.time.LocalDate;
 @AllArgsConstructor
 @NoArgsConstructor
 @Builder
+@Entity
 public class BookingModel {
 
     private String id;
